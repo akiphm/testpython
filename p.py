@@ -17,12 +17,4 @@ class FrenchDeck:
     def __getitem__(self, position):
         return self._cards[position]
 
-def main():
-    beer_card = Card(7, 'hearts')
-    print(beer_card)
-    deck = FrenchDeck()
-    for i in range (0,10):
-        print(choice(deck))
 
-if __name__ == "__main__":
-    main()
